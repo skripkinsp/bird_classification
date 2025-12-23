@@ -20,9 +20,9 @@ Dataset:
 - **Automatic redistribution**: 15 images per species go to validation, 15 to test, rest to training
 - Ensures balanced and representative splits for each bird species
 
-Results:
-0.46 F1 Score 0.63 Accuracy on Resnet18
-0.54 F1 Score 0.7 Accuracy on EfficientNet
+**Results**:
+- 0.46 F1 Score 0.63 Accuracy on Resnet18
+- 0.54 F1 Score 0.7 Accuracy on EfficientNet
 ## Quick Start
 
 1. **One-time setup:**
