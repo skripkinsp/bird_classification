@@ -1,0 +1,7 @@
+max_epochs: 50
+accelerator: cpu
+devices: 1
+logger:
+  _target_: pytorch_lightning.loggers.TensorBoardLogger
+  save_dir: "logs/"
+  name: "bird_classifier"

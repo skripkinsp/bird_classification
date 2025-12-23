@@ -1,0 +1,4 @@
+[core]
+    remote = birds_data
+['remote "birds_data"']
+    url = ./data/birds400

@@ -1,0 +1,24 @@
+defaults:
+  - model: efficientnet_b0
+  - data: default
+  - trainer: default
+  - optimizer: adamw
+  - scheduler: cosine
+
+model:
+  num_classes: 400
+  model_name: "efficientnet_b0"
+
+mlflow:
+  tracking_uri: "http://127.0.0.1:8080"
+
+export:
+  onnx_path: "triton/export/onnx/model.onnx"
+  fp16: True
+
+checkpoint:
+  dirpath: "./checkpoints"
+
+model_path: model_path
+image_path: image_path
+class_to_name_path: class_to_name_path

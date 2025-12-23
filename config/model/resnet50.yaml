@@ -1,0 +1,5 @@
+_target_: models.resnet_baseline.ResNetBaseline
+model_name: "resnet50"
+num_classes: ${model.num_classes}
+freeze_backbone: false
+dropout: 0.5
