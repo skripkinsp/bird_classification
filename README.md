@@ -23,37 +23,7 @@ Dataset:
 **Results**:
 - 0.46 F1 Score 0.63 Accuracy on Resnet18
 - 0.54 F1 Score 0.7 Accuracy on EfficientNet
-## Quick Start
 
-1. **One-time setup:**
-```bash
-# Make setup script executable and run it
-chmod +x setup.sh
-./setup.sh
-```
-
-2. **Test data loading:**
-```bash
-poetry run python test_data.py
-```
-
-3. **Start MLflow server (optional, in separate terminal):**
-```bash
-./start_mlflow.sh
-```
-
-4. **Train the model:**
-```bash
-poetry run python bird_classification/train.py
-```
-
-5. **Run inference:**
-```bash
-poetry run python bird_classification/infer.py \
-    image_path=path/to/bird/image.jpg \
-    model_path=checkpoints/best_model_weights.pth \
-    class_to_name_path=checkpoints/class_to_name.json
-```
 
 ## Setup
 
