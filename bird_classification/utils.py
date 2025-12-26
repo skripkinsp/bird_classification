@@ -40,7 +40,7 @@ def flatten_directory(base_dir):
         os.rmdir(birds_dir)
         print(f"Flattened directory structure in {base_dir}.")
     else:
-        print(f"No 'Mushrooms' directory found in {base_dir}.")
+        print(f"No 'Birds' directory found in {base_dir}.")
 
 
 def split_species_images(species_dir, output_dir, train_ratio, val_ratio, test_ratio):
